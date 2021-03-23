@@ -1,0 +1,1 @@
+dots/.Xresource.d
