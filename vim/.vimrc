@@ -18,6 +18,7 @@ call plug#begin('~/.vim/plugged') " https://github.com/junegunn/vim-plug
     Plug 'yang-ling/rst' " https://github.com/yang-ling/rst
     Plug 'gu-fan/riv.vim' "https://github.com/gu-fan/riv.vim
     Plug 'gu-fan/InstantRst' " https://github.com/gu-fan/InstantRst
+    Plug 'morhetz/gruvbox'
     " Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' } " https://github.com/python-mode/python-mode
 call plug#end()
 
@@ -123,3 +124,7 @@ call plug#end()
     \   'sink': 'botright split' })<CR>
 "<InstantRst>
 let g:instant_rst_localhost_only=1    
+"<Gruv color sheme>
+let g:gruvbox_italic=1
+autocmd vimenter * ++nested colorscheme gruvbox
+set background=dark
