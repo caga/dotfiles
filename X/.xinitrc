@@ -24,7 +24,7 @@ fi
 
 #doas .bin/internet.sh 
 #setxkbmap -model pc104 -layout tr -variant f 
-#setxkbmap -layout us    -variant engram
+setxkbmap -layout us -variant engram
 sxhkd &
 #picom &
 #wal -R &
