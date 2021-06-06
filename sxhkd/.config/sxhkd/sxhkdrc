@@ -123,3 +123,6 @@ super + alt + shift + {t,s,n,r}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+super + alt + Escape
+	pkill -x panel; bspc quit

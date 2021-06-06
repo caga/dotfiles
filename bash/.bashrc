@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 export PATH=$HOME/.config/bspwn:$PATH
 export PATH=$HOME/.bin:$PATH
+export PATH=$HOME/.bin/lemonbar:$PATH
 export TERM="xterm-256color"
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
 source $HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh
