@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged') " https://github.com/junegunn/vim-plug
     Plug 'gu-fan/InstantRst' " https://github.com/gu-fan/InstantRst
     Plug 'morhetz/gruvbox'
     Plug 'dhruvasagar/vim-table-mode'
+    Plug 'Yggdroot/indentLine' 
     " Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' } " https://github.com/python-mode/python-mode
 call plug#end()
 
